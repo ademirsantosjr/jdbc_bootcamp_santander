@@ -1,5 +1,5 @@
 # Parte I - Configurar Banco de Dados
-1. instalar MySQL
+1. Instalar MySQL
 2. Configurar usuário e senha
 3. Instalar MySQL Workbench(Opcional)
 4. Criar Banco de dados
@@ -37,35 +37,34 @@ Para conectar no banco de dados novamente:
 ```bash
 mysql -u root -p
 ```
-### Instalação do Workbench
+## Instalação do Workbench
 ```bash
-sudp apt install mysql-workbench
+sudo apt install mysql-workbench
 ```
-Comando para executar:
+Comando para executar o Workbench:
 ```bash
 mysql-workbench
 ```
-### Criação do banco de dados
+## Criação do banco de dados
 Para uma instância do banco de dados:
 * Acessar o MySQL via terminal
-* Utilizar comando:
-    + `show database;`
-* visualizar bancos de dados padrão
+* visualizar bancos de dados com o comando
+    + `mysql> SHOW DATABASES;`
 
-Para criar o seu banco de dados:
+Para criar o banco de dados:
 ```sql
 CREATE database digital_innovaition_one;
 ```
-Informa ao MySQL que será este o banco de dados a ser utilizado:
+Apontar o banco de dados que será utilizado:
 ```sql
 USE ditigal_innovation_one;
 ```
-Confirme / Visualize com:
+Confirmar / Visualizar apontamento com:
 ```sql
 SELECT database();
 ```
 ### Criar uma tabela
-Enquanto logado no SGBD e conectado no bando de dados que foi criado, criar a tabela:
+Enquanto logado no SGBD, e conectado no bando de dados que foi criado, criar uma tabela:
 ```sql
 CREATE TABLE aluno (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
@@ -74,22 +73,22 @@ CREATE TABLE aluno (
     estado CHARACTER(2) NOT NULL
 );
 ```
-Confirme a criação com:
+Confirmar a criação da tabela com:
 ```sql
 SHOW TABLES;
 ```
-Selecione a tabela:
+Mostrar todos os dados da tabela:
 ```sql
-SELECT * FROM aluno; --estará vazia
+SELECT * FROM aluno; --tabela estará vazia
 ```
-Grave alguns registros:
+Gravar alguns registros:
 ```sql
-INSERT INTO aluno(nom, idade, estado)
+INSERT INTO aluno(nome, idade, estado)
 VALUES ('Pedro', 20, 'RJ');
-INSERT INTO aluno(nom, idade, estado)
+INSERT INTO aluno(nome, idade, estado)
 VALUES ('Maria', 35, 'AC');
-INSERT INTO aluno(nom, idade, estado)
+INSERT INTO aluno(nome, idade, estado)
 VALUES ('Joao', 10, 'SC');
-INSERT INTO aluno(nom, idade, estado)
+INSERT INTO aluno(nome, idade, estado)
 VALUES ('Ana', 51, 'GO');
 ```
