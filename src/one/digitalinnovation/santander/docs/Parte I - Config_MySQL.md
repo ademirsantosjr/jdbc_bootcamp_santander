@@ -33,7 +33,7 @@ mysql> FLUSH PRIVILEGES;
 ```bash
 mysql> quit
 ```
-Para conectar no banco de dados novamente:
+Para se conectar ao banco de dados novamente:
 ```bash
 mysql -u root -p
 ```
