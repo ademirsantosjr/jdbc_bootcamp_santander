@@ -10,5 +10,9 @@
 * Alguma IDE
 * Maven 3.8.1
 
+## Sistema Operacional
+Ambiente de desenvolvimento preparado no SO:
+* Linux Xubuntu
+
 ## Referências
 [GitHub - Daniel Karam](https://github.com/danielkv7/digital-innovation-one)
