@@ -7,7 +7,7 @@
 ## Requisitos
 * MySQL e noções de SQL
 * Java Development Kit (JDK) - 1.8 ou superior
-* Uma IDE
+* Alguma IDE
 * Maven 3.8.1
 
 ## Referências
