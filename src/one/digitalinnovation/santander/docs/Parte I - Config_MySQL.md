@@ -64,7 +64,7 @@ Confirmar / Visualizar apontamento com:
 SELECT database();
 ```
 ### Criar uma tabela
-Enquanto logado no SGBD, e conectado ao banco de dados que foi previamente criado, criar a seguinte tabela:
+Enquanto logado no SGBD, e conectado ao banco de dados previamente criado, criar a seguinte tabela:
 ```sql
 CREATE TABLE aluno (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
