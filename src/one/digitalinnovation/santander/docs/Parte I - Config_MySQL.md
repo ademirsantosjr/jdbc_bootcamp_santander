@@ -68,7 +68,7 @@ Enquanto logado no SGBD, e conectado ao banco de dados previamente criado, criar
 ```sql
 CREATE TABLE aluno (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
-    nome INTEGER NOT NULL,
+    nome VARCHAR(80) NOT NULL,
     idade INTEGER NOT NULL,
     estado CHARACTER(2) NOT NULL
 );
