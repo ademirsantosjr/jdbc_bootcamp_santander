@@ -7,6 +7,8 @@ public class Aluno {
     private int idade;
     private String estado;
 
+    public Aluno() {}
+    
     public Aluno(int id, String nome, int idade, String estado) {
         this.id = id;
         this.nome = nome;
@@ -54,9 +56,9 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno = {id: " + id +
-               ", nome: " + nome +
-               ", idade: " + idade +
-               ", estado: " + estado + "}";
+        return "Aluno = {id=" + id +
+               ", nome=" + nome +
+               ", idade=" + idade +
+               ", estado=" + estado + "}";
     }
 }
