@@ -1,4 +1,4 @@
-# Trabalhando com Banco de Dados utilizando JDBC e JPA
+# Trabalhando com Banco de Dados utilizando JDBC
 ## Objetivo
 * Configurar banco de dados
 * Testar conceitos com JDBC e drivers de conexão
