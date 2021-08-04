@@ -1,6 +1,6 @@
 # Parte II - JDBC e drivers de conexão
 
-1. Download do driver específico(MySQL) via Maven
+1. Download do driver específico (MySQL) via Maven
 2. Criar string de conexão (URL)
 3. Criar conexão `Connection` com `DriverManager`
 
